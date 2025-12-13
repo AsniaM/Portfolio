@@ -3,13 +3,6 @@ import coder from "./assets/3d-application-developer-working-on-project-illustra
 
 import Typewriter from "typewriter-effect";
 
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaTwitter,
-  FaInstagram
-} from "react-icons/fa";
-
 export default function Home1() {
   return (
     <section className={styles.home}>
@@ -24,7 +17,7 @@ export default function Home1() {
             </h1>
 
             <h2 className={styles.name}>
-              I&apos;M <span>ASNIA M</span>
+              I&apos;M <span>ASNIA </span>
             </h2>
 
             <h3 className={styles.role}>
@@ -33,7 +26,7 @@ export default function Home1() {
                   strings: [
                     "Java Fullstack Developer",
                     "Frontend Developer",
-                    "UI/UX Developer",
+                    "UI/UX Designer",
                     "Backend Developer"
                   ],
                   autoStart: true,
