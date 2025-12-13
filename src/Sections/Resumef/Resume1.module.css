@@ -1,0 +1,55 @@
+.resumePage {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0b0418, #0a0212);
+  padding: 4.5rem 1.5rem 3rem;
+}
+
+
+.topBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.8rem;
+  background: #6d28d9;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  margin-top: 50px;
+}
+
+.downloadBtn:hover {
+  background: #8b5cf6;
+  transform: translateY(-2px);
+}
+
+
+.resumeImageWrapper {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.resumeImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+  .resumePage {
+    padding-top: 3.5rem;
+  }
+}

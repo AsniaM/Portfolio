@@ -1,0 +1,101 @@
+.projectsSection {
+  min-height: 100vh;
+  padding: 4rem 6%;
+  background: radial-gradient(circle at top, #1a1235, #0b0616);
+  color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.title span {
+  color: #c77dff;
+}
+
+.subtitle {
+  text-align: center;
+  color: #cfcfcf;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 18px;
+  padding: 1.5rem;
+  text-align: center;
+
+  border: 1px solid rgba(199, 125, 255, 0.25);
+  box-shadow: 0 0 25px rgba(199, 125, 255, 0.15);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 40px rgba(199, 125, 255, 0.4);
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+
+.card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+
+
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #dddddd;
+  margin-bottom: 1.4rem;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  padding: 0.6rem 1.4rem;
+  background: #6f2dbd;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none;
+
+  transition: background 0.3s ease;
+}
+
+.buttons a:hover {
+  background: #9d4edd;
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.3rem;
+  }
+}

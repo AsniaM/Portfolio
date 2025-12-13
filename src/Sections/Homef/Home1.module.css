@@ -1,0 +1,124 @@
+.home {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #241a46, #0b0618);
+  color: #ffffff;
+}
+
+
+.heroWrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.greet {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.name span {
+  color: #c77dff;
+}
+
+.role {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #c77dff;
+  min-height: 2.2rem; }
+  
+.wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(20deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+.right img {
+  max-width: 420px;
+  width: 100%;
+  display: block;
+  margin: auto;
+
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.introWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 2rem;
+}
+
+.intro {
+  max-width: 900px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.intro h2 span {
+  color: #c77dff;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  margin-bottom: 1.6rem;
+  color: #dddddd;
+}
+
+.intro p span {
+  color: #c77dff;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 75px;
+  }
+
+  .right img {
+    margin-top: 3rem;
+  }
+}
