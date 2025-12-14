@@ -29,16 +29,16 @@ export default function About1() {
           <p>
             I work with <span>Java</span>, <span>Spring Boot</span>,
             <span> React.js</span>, <span>HTML5</span>, <span>CSS3</span>,
-            <span> Bootstrap</span>, and <span>SQL</span>, and I design
+            <span> Bootstrap</span>, and <span>MySQL</span>, and I design
             intuitive interfaces using <span>Figma</span>,
             <span> Adobe Photoshop</span>, and
             <span> Adobe Illustrator</span>.
           </p>
 
           <p>
-            Outside of development, I enjoy learning new technologies,
-            improving my design skills, and building meaningful projects
-            that create real-world impact.
+           I hold an M.Sc. in Physics, which has strengthened
+           my analytical thinking, problem-solving skills, 
+           and logical approach—all of which I apply in software development.
           </p>
 
           <p className={styles.quote}>
@@ -61,7 +61,7 @@ export default function About1() {
         <div className={styles.skillGrid}>
           {[
             "HTML5", "CSS3", "JavaScript", "React.js", "Bootstrap",
-            "Java", "Spring Boot", "SQL", "REST APIs",
+            "Java", "Spring Boot", "MySQL", "REST APIs",
             "Figma", "Photoshop", "Illustrator", "Git", "GitHub"
           ].map((skill, i) => (
             <div key={i} className={styles.skill}>

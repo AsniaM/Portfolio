@@ -57,7 +57,7 @@ export default function Home1() {
   applications. With hands-on experience in <span>HTML5</span>, <span>CSS3</span>,
   <span>Bootstrap</span>, <span>JavaScript</span>, and <span>React.js</span>, I enjoy
   crafting responsive and visually appealing user interfaces. On the backend,
-  I work with <span>Java</span>, <span>Spring Boot</span>, and <span>SQL</span> to
+  I work with <span>Java</span>, <span>Spring Boot</span>, and <span>MySQL</span> to
   develop robust and efficient systems. I also leverage design tools like
   <span>Figma</span>, <span>Adobe Photoshop</span>, and
   <span>Adobe Illustrator</span> to create intuitive and engaging user
